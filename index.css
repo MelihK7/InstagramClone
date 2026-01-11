@@ -46,6 +46,10 @@ header .astronaut, .profileDataPost img{
     align-items: center;
 }
 
+.profileDataPost span{
+    font-weight: bold;
+}
+
 #userName{
     font-weight: bold;
 }

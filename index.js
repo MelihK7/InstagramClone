@@ -40,7 +40,7 @@ for (let i = 0; i < posts.length; i++) {
         <div class="profileDataPost"> 
             <img id="postProfilePic" src="${posts[i].avatar}"> 
             <div class="postUserData"> 
-                <p > ${posts[i].name} </p>
+                <p > <span>${posts[i].name} </span> </p>
                 <p > ${posts[i].location}</p>
             </div>
         </div>
