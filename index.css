@@ -1,0 +1,97 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    border-bottom: 2px solid rgba(128, 128, 128, 0.5);
+}
+
+.wrapper{
+    width: 480px;
+    margin: 0 auto;
+}
+
+header .logo{
+    width: 140px;
+    padding: 8px 0px;
+}
+
+header .astronaut, .profileDataPost img{
+    width: 45px;
+    height: 45px;
+    border-radius: 80%;
+    object-fit: cover;
+    padding: 8px 0px;
+}
+
+
+.profileDataPost img{
+    padding-left: 10px ;
+}
+
+.profileDataPost p{
+    margin-bottom: 0;
+    margin-top: 2px;
+}
+
+.profileDataPost{
+    margin-top: 15px;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+#userName{
+    font-weight: bold;
+}
+
+#country{
+    font-weight: lighter;
+}
+
+.image .post{
+    width: 480px;
+    margin-bottom: 0px;
+}
+
+.icon-bar .icon {
+    width: 25px;
+    margin: 0;
+}
+
+.icon-bar .icon:hover, .icon:focus {
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+.icon-bar{
+    padding: 10px;
+    width: 110px;
+    
+    display: flex;
+    justify-content: space-evenly;
+    gap: 15px;
+}
+
+.likeCommentSection {
+    margin-top: 0;
+    padding-top: 0px;
+    
+    padding-bottom: 15px;
+    border-bottom: 2px solid rgba(128, 128, 128, 0.5);
+}
+
+.likeCommentSection p{
+    margin-bottom: 6px;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+.likeCommentSection span{
+    font-weight: bold;
+}
